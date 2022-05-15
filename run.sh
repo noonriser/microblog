@@ -18,4 +18,4 @@ pip install -r $BASEDIR/requirements.txt
 # export MAIL_PASSWORD=<your-gmail-password>
 # Extra config in Gmail may be needed to allow less secure apps
 # SendGrid seems like a nice alternative
-flask run
+flask run --host=0.0.0.0
