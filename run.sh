@@ -7,8 +7,8 @@ pip install -r $BASEDIR/requirements.txt
 # For local testing of email, run the following in another terminal:
 # python -m smtpd -n -c DebuggingServer localhost:8025
 # Bring in this config for local testing of email
-# export MAIL_SERVER=localhost
-# export MAIL_PORT=8025
+export MAIL_SERVER=localhost
+export MAIL_PORT=8025
 
 # For running for real, update config.admins in init.py and bring in the following:
 # export MAIL_SERVER=smtp.googlemail.com
